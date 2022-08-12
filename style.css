@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+} 
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+  background-color: #F0EBE3;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+  padding: 2rem;
+  width: 30rem;
+  height: 50rem;
+  background-color: #FEFBF6;
+  
+}
+
+.container-QR{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.input{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.btn{
+  color: black;
+  background-color: #E4DCCF;
+  height: 5rem;
+  
+}
